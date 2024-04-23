@@ -13,8 +13,17 @@ const Index = () => {
         <Text fontSize="lg" my={4}>
           Discover the unique taste of premium vodka distilled with a twist of fun.
         </Text>
-        <Button colorScheme="blue" size="lg">
+        <Text fontSize="md" my={4}>
+          For every bottle sold, $5.00 is donated to support animal rescue organizations.
+        </Text>
+        <Text fontSize="md" my={4}>
+          Proudly made in the USA and distilled 7 times for premium quality.
+        </Text>
+        <Button colorScheme="blue" size="lg" my={4}>
           Shop Now
+        </Button>
+        <Button colorScheme="teal" size="lg" onClick={() => alert("Redirecting to your local animal shelter...")}>
+          Find a Local Shelter
         </Button>
       </Flex>
 
